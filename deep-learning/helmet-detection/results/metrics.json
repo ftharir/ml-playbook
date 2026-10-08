@@ -1,0 +1,25 @@
+{
+  "train_images": 488,
+  "validation_images": 121,
+  "test_images": 152,
+  "epochs_trained": 5,
+  "test_accuracy": 0.6908,
+  "majority_baseline": 0.6711,
+  "roc_auc": 0.6606,
+  "confusion_matrix": {
+    "labels": [
+      "helmet",
+      "no_helmet"
+    ],
+    "matrix": [
+      [
+        97,
+        5
+      ],
+      [
+        42,
+        8
+      ]
+    ]
+  }
+}

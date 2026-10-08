@@ -89,12 +89,4 @@ Open any `analysis.ipynb`. They already contain their outputs, so they can also 
 
 The datasets belong to their respective owners and are included only for reproducibility of these educational projects. Please check each source's terms before reusing them.
 
-## Future work
 
-- A **model card** per project and calibration plots for the medical examples
-- **Hyperparameter search** with Optuna and nested cross-validation
-- **Transfer learning** (MobileNetV2 / EfficientNet) for the hot-dog classifier, with a confusion matrix and error gallery
-- **Explainability** with SHAP for the heart-disease and housing models
-- **Transformer-based** text classification for the SMS task, compared with the TF-IDF baselines
-- A small **Streamlit** app to try the spam classifier and house-price model interactively
-- **Tests and CI**: smoke-run the notebooks with `nbmake` in GitHub Actions

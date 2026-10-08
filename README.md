@@ -1,6 +1,6 @@
 # ML Playbook
 
-Five end-to-end machine learning case studies covering **classification, regression, NLP and computer vision**. Each project contains the notebook I first wrote while learning, plus a follow-up analysis with a more rigorous evaluation.
+Six end-to-end machine learning case studies covering **classification, regression, NLP and computer vision**. Each project contains the notebook I first wrote while learning, plus a follow-up analysis with a more rigorous evaluation.
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6-F7931E?logo=scikitlearn&logoColor=white)
@@ -9,7 +9,7 @@ Five end-to-end machine learning case studies covering **classification, regress
 
 ## About these projects
 
-The notebooks were first written in **February 2024**, when I was learning machine learning, and I am publishing them now. They are the notebooks I wrote while learning. The follow-up work was added in 2026 as separate files next to them:
+The notebooks were first written in **early 2024** (the helmet-detection project in December 2024), when I was learning machine learning, and I am publishing them now. They are the notebooks I wrote while learning. The follow-up work was added in 2026 as separate files next to them:
 
 - `analysis.ipynb`: the same problem re-evaluated with better methodology and metrics,
 - a README per project with results,
@@ -26,6 +26,7 @@ In each project folder, the notebook named after the task is the original; `anal
 | Classification (NLP) | [SMS spam detection](classification/sms-spam) | 96% accuracy, but only 70% spam recall | Spam recall **94.0%**, F1 **0.962** (Linear SVM) |
 | Regression | [Housing prices](regression/housing-price) | R² 0.822 (tuned Random Forest) | R² **0.832**, RMSE ≈ $46.9k (Gradient Boosting), with CV and error analysis |
 | Deep learning | [Hot dog or not (CNN)](deep-learning/hotdog-cnn) | Training log inside the notebook | Training curves plotted from the log; 73% validation accuracy at epoch 18 of 50 |
+| Deep learning | [Helmet detection](deep-learning/helmet-detection) | 62.5% test accuracy (original run) | Reproducible run: 69.1% vs a 67.1% majority baseline; recall on riders without a helmet only 16% |
 
 ## What the follow-up analyses add
 
@@ -57,6 +58,7 @@ In each project folder, the notebook named after the task is the original; `anal
 ├── regression/
 │   └── housing-price/
 ├── deep-learning/
+│   ├── helmet-detection/
 │   └── hotdog-cnn/
 ├── requirements.txt            for the follow-up analyses
 ├── requirements-original.txt   extra packages to re-run the original notebooks
@@ -86,6 +88,7 @@ Open any `analysis.ipynb`. They already contain their outputs, so they can also 
 | SMS spam | SMS Spam Collection | Almeida & Hidalgo, UCI Machine Learning Repository |
 | Housing | California housing (1990 census) | Pace & Barry (1997), as distributed on Kaggle |
 | Hot dog CNN | Food-101 | Bossard et al. (2014), downloaded via TensorFlow Datasets, not included |
+| Helmet detection | Bikes Helmets (Make ML), 764 annotated rider photos | Kaggle `andrewmvd/helmet-detection`; mirrored on Hugging Face `cute-face/bike-helmet-dataset`; downloaded by the user, not included |
 
 The datasets belong to their respective owners and are included only for reproducibility of these educational projects. Please check each source's terms before reusing them.
 

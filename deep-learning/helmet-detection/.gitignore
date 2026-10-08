@@ -1,0 +1,8 @@
+# Downloaded and generated image data (about 400 MB each)
+data/raw/
+data/helmet_detection/train/
+data/helmet_detection/test/
+data/download.log
+
+__pycache__/
+.ipynb_checkpoints/

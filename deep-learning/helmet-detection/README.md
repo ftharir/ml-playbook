@@ -30,7 +30,7 @@ The classifier needs one label per image, so `scripts/prepare_data.py` labels an
 ## Getting started
 
 ```bash
-pip install -r requirements.txt
+pip install -r ../../requirements.txt
 ```
 
 **1. Download the data** (about 400 MB) into `data/raw` (or download it from Kaggle and place it in `data/raw/helmet_voc/{images,annotations}`):

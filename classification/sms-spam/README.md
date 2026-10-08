@@ -36,5 +36,3 @@ Tuning means bigrams, `min_df=2`, sublinear TF and a smaller smoothing value. Th
 pip install -r ../../requirements.txt
 jupyter notebook analysis.ipynb
 ```
-
-To re-run the original notebook as well, install `requirements-original.txt` (it imports TensorFlow).

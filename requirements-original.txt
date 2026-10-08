@@ -1,6 +1,0 @@
-# Extra dependencies needed only to re-run the ORIGINAL notebooks in the original/ folders
--r requirements.txt
-scipy
-statsmodels            # 02 heart disease (the original notebook imports it)
-tensorflow>=2.16       # 04 sms spam (imported) and 05 hot dog CNN
-tensorflow-datasets    # 05 hot dog CNN (downloads Food-101, 4.65 GiB)

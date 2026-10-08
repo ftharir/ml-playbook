@@ -60,8 +60,7 @@ In each project folder, the notebook named after the task is the original; `anal
 ├── deep-learning/
 │   ├── helmet-detection/
 │   └── hotdog-cnn/
-├── requirements.txt            for the follow-up analyses
-├── requirements-original.txt   extra packages to re-run the original notebooks
+├── requirements.txt            dependencies for all projects
 └── README.md
 ```
 
@@ -77,7 +76,7 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-Open any `analysis.ipynb`. They already contain their outputs, so they can also be read directly on GitHub. To re-run the original notebooks use `requirements-original.txt` instead (TensorFlow is heavy, and the CNN project downloads a 4.65 GiB dataset).
+Open any `analysis.ipynb`. They already contain their outputs, so they can also be read directly on GitHub. The same `requirements.txt` also covers the original notebooks (TensorFlow is a large install, and the hot-dog project downloads a 4.65 GiB dataset).
 
 ## Data sources
 

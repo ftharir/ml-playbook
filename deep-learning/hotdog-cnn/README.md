@@ -30,4 +30,4 @@ The saved log covers **18 of the 50 planned epochs** (about 19 minutes each on C
 
 ## Possible next steps
 
-Transfer learning from a pretrained backbone (e.g. MobileNetV2 or EfficientNet) would likely reach much higher accuracy in a fraction of the training time; adding a confusion matrix and misclassified examples would complete the evaluation. Re-running requires the Food-101 download and `requirements-original.txt`.
+Transfer learning from a pretrained backbone (e.g. MobileNetV2 or EfficientNet) would likely reach much higher accuracy in a fraction of the training time; adding a confusion matrix and misclassified examples would complete the evaluation. Re-running requires the Food-101 download and `requirements.txt`.

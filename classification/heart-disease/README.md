@@ -40,6 +40,4 @@ pip install -r ../../requirements.txt
 jupyter notebook analysis.ipynb
 ```
 
-To re-run the original notebook as well, install `requirements-original.txt` (it imports `statsmodels`).
-
 > Not medical advice. This is a learning project.

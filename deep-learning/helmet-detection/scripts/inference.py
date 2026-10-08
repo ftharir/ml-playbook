@@ -31,6 +31,6 @@ image = image / 255.0  # نرمال‌سازی تصویر
 # پیش‌بینی
 prediction = model.predict(image)
 if prediction > 0.5:
-    print("The worker is wearing a helmet.")
+    print("The rider is wearing a helmet.")
 else:
-    print("The worker is not wearing a helmet.")
+    print("The rider is not wearing a helmet.")

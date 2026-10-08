@@ -1,4 +1,4 @@
-# Applied ML Case Studies
+# ML Playbook
 
 Five end-to-end machine learning case studies covering **classification, regression, NLP and computer vision**. Each project contains the notebook I first wrote while learning, plus a follow-up analysis with a more rigorous evaluation.
 
